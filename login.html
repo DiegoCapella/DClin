@@ -1,0 +1,65 @@
+<html>
+  <head>
+    <title>Login</title>
+
+    <meta charset="utf-8" name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- CSS Bootstrap -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <!-- CSS Style Personalizado-->
+    <link rel="stylesheet" href="css/style.css">
+    <!-- Favincon -->
+    <link rel="icon" type="imagem" href="img/icon.png">
+
+  </head>
+
+  <body id="background-login">
+
+    <div class="container">    
+      <div class="row">
+
+        <div class="card-page-login">
+          <div class="card">
+            <!-- Imagem do topo -->
+            <div class="card-image-topo">
+              <img class="imagem-login" src="img/400x200.png">
+            </div>
+
+            <div class="card-body">
+              <!-- Formulário -->
+              <form action="adm/dashboard.html" method="post">
+                <div class="form-group"><!-- Email -->
+                  <input name="email" type="email" class="form-control" placeholder="E-mail">
+                </div>
+                <div class="form-group"><!-- Senha -->
+                  <input name="senha" type="password" class="form-control" placeholder="Senha">
+                </div>
+
+                <div class="row">
+                  <!-- Campo para lembrar a senha -->
+                  <div class="col left-align">
+                      <input type="checkbox" id="remember-me"/>
+                      <label for="remember-me">Lembrar</label>
+                  </div>
+                  <!-- Campo com hiperlink para mudar a senha -->
+                  <div class="right-align">
+                      <a href="#" class="">Esqueceu sua senha?</a>&emsp;
+                  </div>
+                </div>
+
+                <!-- Botões -->
+                <div class="text-center btn-cancelar py-2">
+                  <!-- Botão de entrar -->
+                  <button class="btn btn-md btn-info mx-4" type="submit">ENTRAR</button>
+                  <!-- Botão cancelar -->
+                  <a class="btn btn-md btn-info mx-4" href="index.html">CANCELAR</a>
+                  
+                </div>
+              </form>
+            </div>
+
+          </div>
+        </div>
+    </div>
+  </body>
+</html>

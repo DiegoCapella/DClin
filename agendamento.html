@@ -1,0 +1,80 @@
+<html>
+  <head>
+    <title>Agendamento</title>
+    
+    <meta charset="utf-8" name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- CSS Bootstrap -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <!-- CSS Style Personalizado-->
+    <link rel="stylesheet" href="css/style.css">
+    <!-- Favincon -->
+    <link rel="icon" type="imagem" href="img/icon.png">
+
+  </head>
+
+  <body id="background-agendar">
+
+    <div class="container">    
+      <div class="row">
+
+        <div class="card-agendar">
+          <div class="card">
+            <!-- Imagem do topo -->
+            <div class="card-image-topo">
+              <img class="imagem-agendar" src="img/400x200.png"> 
+            </div>
+
+            <div class="card-body">
+              <!-- Formulário -->
+              <form action="#" method="post">
+                <!-- Nome -->
+                <div class="form-group">
+                  Nome:
+                  <input name="nome" type="nome" class="form-control" placeholder="Nome Completo">
+                </div>
+                <!-- Telefone -->
+                <div class="form-group">
+                  Telefone:
+                  <input type="text" class="form-control phone-ddd-mask" maxlength="14" 
+                         placeholder="Ex.: (00) 0000-0000">
+                </div>
+
+                <div class="form-group">
+                  Data:<br>
+                  <input type="date" >
+                </div>
+
+                <!-- Select área de interesse -->
+                <div class="form-group font-select">
+                  <label for="curso">Área de Interesse:</label> 
+
+                  <select class="font-select" name="Curso"> 
+                    <option value="Educação Física">Educação Física</option>
+                    <option value="Enfermagem">Enfermagem</option> 
+                    <option value="Farmácia">Farmácia</option> 
+                    <option value="Fioterapia">Fisioterapia</option>
+                    <option value="Nutrição">Nutrição</option>
+                    <option value="Odontologia">Odontologia</option>
+                    <option value="Piscicologia">Pscicologia</option> 
+                    <option value="Piscicologia">Serviço Social</option> 
+                  </select>
+                </div>
+
+                <!-- Botões -->
+                <div class="text-center btn-cancelar">
+                <!-- Botão de entrar -->
+                <button class="btn btn-md btn-info mx-4" type="submit">ENVIAR</button>
+                <!-- Botão cancelar -->
+                <a class="btn btn-md btn-info mx-4" href="index.html">CANCELAR</a>
+                </div>
+
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </body>
+</html>
